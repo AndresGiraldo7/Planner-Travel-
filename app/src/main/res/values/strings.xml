@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Planner Travel</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="confirmaci_n_password">Confirmar Password</string>
+    <string name="registrarse">Registrarse</string>
+
+
+    <!---Strings login -->
+    <string name="login_logo_description">Logo de la Aplicacion</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="login_with">Iniciar con:</string>
+    <string name="login_registrarse">Registrarse</string>
+    <string name="login_recuperar_cuenta">Recuperar Cuenta</string>
+    <string name="login_facebook">Facebook</string>
+    <string name="login_google">Google</string>
+
+    <!---home -->
+    <string name="nombre_app">Planner Travel</string>
+    <string name="content_description_imagen_prueba">imagen_prueba</string>
+    <string name="textview">TextView</string>
+
+    <!-- Strings Recuperar Contraseña -->
+    <string name="recuperarContraseña_titulo">Recuperar Contraseña</string>
+    <string name="recuperarContraseña_email">Email</string>
+    <string name="recuperarContraseña_text">Ingresa el correo electrónico asociado a tu cuenta.</string>
+    <string name="recuperarContraseña_button">Recuperar</string>
+    <!-- String Mensaje de Recuperación -->
+    <string name="recuperarContraseña_mensaje">Enviamos un correo electónico con un enlace para que recuperes el acceso a la cuenta.</string>
+</resources>

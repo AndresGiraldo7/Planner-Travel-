@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.RestaurantesActivity">
+
+    <TextView
+        android:id="@+id/rest_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_regular"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="Restaurantes"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/rest_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="4dp"
+        app:iconifiedByDefault="false"
+        app:layout_constraintTop_toBottomOf="@+id/rest_title"
+        app:queryHint="Buscar Restaurantes.." />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rest_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/rest_search"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="170dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

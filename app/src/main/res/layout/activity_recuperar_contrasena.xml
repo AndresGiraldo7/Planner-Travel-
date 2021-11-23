@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="@font/comfortaa_regular"
+    tools:context=".view.RecuperarContrasenaActivity">
+
+
+    <ImageView
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_regular"
+            android:gravity="center"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/recuperarContraseña_titulo"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@color/whitetrans"
+                android:inputType="textEmailAddress"
+                android:hint="@string/recuperarContraseña_email"
+                android:minHeight="@dimen/minHeight"
+                android:padding="@dimen/padding2"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/text2_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center"
+            android:text="@string/recuperarContraseña_text"
+            android:textSize="@dimen/text_size2"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reg_registrarse"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/button_marginTop"
+            android:text="@string/recuperarContraseña_button">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
